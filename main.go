@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"golang-algorithms-structures/BinarySearch"
+	"golang-algorithms-structures/QuickSort"
 	"golang-algorithms-structures/SelectionSort"
 )
 
@@ -13,4 +14,7 @@ func main() {
 	selectionSortData := []int{555, 447, 223, 11, 5, 6, 7, 8, 9, 10}
 	selectionSortResult := SelectionSort.Run(selectionSortData)
 	fmt.Println(selectionSortResult)
+	quickSort := []int{555, 447, 223, 11, 5, 6, 7, 8, 9, 10}
+	quickSortResult := QuickSort.Run(quickSort)
+	fmt.Println(quickSortResult)
 }
